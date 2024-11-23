@@ -14,11 +14,11 @@ This is an MVP essentially - it works, but isn't nice to use.
 Compress:
 
 ```shell
-$ patch-compressor file.txt -o compressed.txt
+$ patch-compressor file.txt compressed.txt
 ```
 
 Decompress:
 
 ```shell
-$ patch-compressor -d compressed.txt -o file.txt
+$ patch-compressor -d compressed.txt file.txt
 ```
